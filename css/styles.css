@@ -565,22 +565,25 @@ body {
 }
 
 
-
+.cards-overlay p{
+    margin: 0;
+}
 .cards-overlay{
     position: relative;
     overflow: hidden;
-    
 }
 
 .cards-info{
     position: absolute;
     top: 0;
     left: 0;
-    padding: 63px 24px;
-    width:100%; 
+    padding-top: 63px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+    padding-left: 24px;
     height:100%;
-    
     background:rgba(33, 150, 243, 0.9); 
+    font-weight: 400;
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
@@ -589,8 +592,6 @@ body {
     transform: translateY(100%);
     transition: transform 250ms var(--time-function),
     opacity 250ms var(--time-function);
-    
-
 }
 
 .cards-link:hover .cards-info{
