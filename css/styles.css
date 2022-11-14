@@ -561,8 +561,7 @@ body {
 }
 
 .cards-link{
-    
-    
+       
 }
 
 
@@ -576,25 +575,27 @@ body {
 .cards-info{
     position: absolute;
     top: 0;
-    right: 0;
-    margin: 0;
+    left: 0;
     padding: 63px 24px;
-    width:370px; 
-    height:294px;
-    text-align: left;
+    width:100%; 
+    height:100%;
+    
     background:rgba(33, 150, 243, 0.9); 
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
     color: var(--bgc-white);
+    opacity: 0;
     transform: translateY(100%);
-    transition: transform 250ms var(--time-function);
+    transition: transform 250ms var(--time-function),
+    opacity 250ms var(--time-function);
     
 
 }
 
 .cards-link:hover .cards-info{
     transform: translateY(0);
+    opacity: 1;
 }
 
 .cards-item:hover,
