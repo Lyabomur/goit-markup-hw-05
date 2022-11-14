@@ -103,21 +103,13 @@ body {
 .link-activ::after{
     content:"";
     position: absolute;
-    display: block;
+    /* display: block; */
     width: 100%;
     height: 4px;
     bottom: -1px;
     left: 0;
     background-color:var(--acent-color);
     border-radius: 2px;
-
-    opacity: 0;
-    transition:opacity 250ms var(--time-function);
-}
-
-.link-activ:hover::after,
-.link-activ:focus::after{
-    opacity: 1;
 }
 
 
