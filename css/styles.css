@@ -73,6 +73,7 @@ body {
     color: var(--main-color);
 }
 
+
 .list {
     list-style: none;
     text-decoration: none;
@@ -86,9 +87,6 @@ body {
 .link-tel{
     display: flex;
 }
-
-
-
 
 
 /* Навігація  */
@@ -116,10 +114,9 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .link:active {
+.site-nav .link-active{
     color: var(--acent-color);
 }
-
 
 
 .link {
@@ -130,8 +127,8 @@ body {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    }
-    
+}
+
 .link-activ::after{
     content:"";
     position: absolute;
@@ -142,6 +139,7 @@ body {
     background-color:var(--acent-color);
     border-radius: 2px;
 }
+
 
 /* Контакти хедера */
 
