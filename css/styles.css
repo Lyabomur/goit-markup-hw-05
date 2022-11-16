@@ -114,10 +114,9 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .link-active{
+.site-nav .link-activ{
     color: var(--acent-color);
 }
-
 
 .link {
     position: relative;
